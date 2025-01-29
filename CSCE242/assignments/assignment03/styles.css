@@ -1,0 +1,124 @@
+#content{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    border: solid 1px #2E2C2F;
+    background: #D1FFD7;
+}
+#main-header, #main-footer{
+    background:#D1FFD7;
+    text-align: center;
+    color:#2a5d34;
+}
+
+#big-ideas{
+    width:90%;
+    margin:auto;
+}
+.idea {
+    width: 90%;
+    margin: auto;
+    padding:5px;
+    background:#EBFFED;
+    color:#60594D;
+}
+
+.idea:nth-child(even){
+    background:#60594D;
+    color:#EBFFED;
+}
+
+.idea-img{
+    margin-top:20px;
+    padding:5px;
+    text-align: center;
+}
+
+
+.gallery{
+    background:#8dd695;
+    color:#EBFFED;
+}
+.links{
+    background:#EBFFED;
+    padding:  5px;
+}
+.links h3{
+    padding-left: 40px;
+    color: #60594D;
+}
+
+.tile, .node{
+    text-align: center;
+    padding: 5px;
+}
+
+.links li{
+    list-style-type: none;
+}
+.links a{
+    color:#60594D;
+    text-decoration: none;
+    border-bottom: solid 1px #60594D;
+}
+.links a:hover{
+    color:#9468a5;
+    text-decoration: none;
+    border-bottom: solid 1px #9468a5;
+}
+main{
+    background:#D1FFD7;
+    color:#18391E;
+}
+#main-nav ul{
+    padding-left:0;
+}
+#main-nav li{
+    list-style-type: none;
+    background:#2f6438;
+    text-align:center;
+    border:1px solid #EBFFED;
+    padding:5px;
+}
+#main-nav a{
+    color:#b3ffcb;
+    text-decoration: none;
+    border-bottom:1px solid transparent;
+}
+#main-nav a:hover{
+    color:#ffb3b3;
+}
+
+@media only screen and (min-width: 768px){
+    .columns {
+        display:flex;
+    }
+    #main-nav li{
+        flex: 1;
+    }
+    #main-nav li:not(:last-child){
+        border-right:1px solid white;
+    }
+    .gallery{
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    .one{
+        flex:1;
+    }
+    .two{
+        flex:2;
+    }
+    .three{
+        flex:3;
+    }
+    .tile{
+        flex-basis:45%;
+    }
+    .node{
+        flex-basis: 30%;
+    }
+    .idea{
+        border-top: solid 5px #D1FFD7;
+        border-bottom: solid 5px #D1FFD7;
+    }
+}

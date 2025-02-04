@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    color:black;
+}
+
+
+li{
+    list-style-type:none;
+}
+
+
+/*Header, footer styling*/
+
+#topheader{
+    width:75%;
+    margin:auto;
+    padding-bottom:10px;
+}
+header{
+    background:black;
+    color:white;
+    padding:0px;
+    border: 1px solid black;
+    font-size:12px;
+}
+#bottomheader{
+    background:#73000A;
+    color:white;
+}
+#header-padding{
+    margin-top:0px;
+    padding:5px;
+}
+.main-nav{
+    font-size:12px;
+}
+.main-nav li{
+    list-style-type: none;
+    display:inline-block;
+    text-align:right;
+    padding:5px 5px 0 5px;
+    
+}
+.main-nav ul{
+    margin-top:0;
+    text-align: right;
+}
+.main-nav a{
+    text-decoration: none;
+    color:white;
+}
+#topfooter{
+    background: #ECECEC;
+    font-weight: bold;
+}
+
+/*Main Styling*/
+main{
+    padding:0px;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+#toptext{
+    font-size:20px;
+    padding-bottom:20px;
+    border-bottom: 1px solid #b7b7b7;
+    margin-top:10px;
+    line-height: 1.5;
+}
+
+#toptile2{
+    padding-left:15px;
+}
+
+/*nav elements*/
+#side-nav li{
+    padding: 5px 5px 5px 10px;
+    border-top: 1px solid #b7b7b7;
+}
+#side-nav ul{
+    padding-left:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#side-nav a{
+    font-weight: bold;
+    font-size:18px;
+    padding:10px 0 10px;
+}
+#highlighted a{
+    color:#73000A;
+}
+#highlighted{
+    border-left: 1px solid #b7b7b7;
+    background:#ECECEC;
+    
+}
+#special-nav{
+    font-size: 14px;
+    text-align: right;
+}
+
+
+h3, h4{
+    color:#73000A;
+}
+#asnews{
+    font-size:20px;
+    margin-bottom:0;
+}
+#socials{
+    font-size: 18px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+.socialicon{
+    margin:5px;
+}
+.main-tiles{
+    margin:5px;
+}
+.text-style{
+    padding-left:10px;
+    margin-top:5px;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .header-padding{
+        padding-left: 150px;
+    }
+    main {
+        width:75%;
+        margin:auto;
+        padding:0px;
+        margin-top: 20px;
+    }
+    #header-padding,#topheader{
+        width:75%;
+        margin:auto;
+    }
+    .main-nav li{
+        display: inline-block;
+    }
+    .tiles, .tile-row, #links, .main-nav{
+        display:flex;
+    }
+    #toptile1, #blankspace{
+        flex:1;
+    }
+    .subtile{
+        flex:1;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    #toptile2{
+        flex:3;
+        flex-wrap:wrap;
+    }
+}

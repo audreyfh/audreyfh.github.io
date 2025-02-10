@@ -1,0 +1,147 @@
+/*Sorry in advance; this isn't well formatted, will fix in final version*/
+#main-body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    text-align:center;
+}
+
+#main-header, #main-footer{
+    background:#ffffff;
+    text-align: center;
+    color:#18391E;
+}
+#top-section h2{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+.row1of3{
+    background: rgb(158, 158, 158);
+    margin:30px;
+    padding:5px;
+    text-align: center;
+}
+.col1of2{
+    background:#909090;
+    text-align: center;
+    padding:0 10px 10px 10px;
+    margin:10px;
+}
+.about {
+    padding:5px;
+    background: #909090;
+    border:1px solid black;
+    color:white;
+}
+
+.about-img{
+    margin-top:20px;
+    padding:5px;
+    text-align: center;
+}
+
+
+.gallery{
+    background:rgb(255, 255, 255);
+}
+.links{
+    background:blue;
+}
+
+main{
+    background:white;
+}
+#main-nav ul{
+    padding-left:0;
+}
+#main-nav li{
+    list-style-type: none;
+    background:rgb(0, 0, 0);
+    padding:2px;
+    text-align:center;
+    border-bottom:1px solid white;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#main-nav a, .row1of3 a{
+    color:white;
+}
+
+.highlighted a{
+    color:white;
+    border-bottom:1px solid blue;
+}
+#main-nav a:hover{
+    color:skyblue;
+    background:white;
+    border-bottom: 1px solid white;
+}
+
+#trinketformat{
+    background:#909090;
+    padding:10px;
+    text-align: center;
+}
+#trinketformat p{
+    width:80%;
+    margin:auto;
+    text-align:left;
+    padding:5px;
+}
+
+.collection{
+    background:#909090;
+    padding:5px;
+    margin:0px;
+    
+}
+.collection:nth-child(even){
+    border-bottom:1px solid white;
+}
+
+@media only screen and (min-width: 768px){
+    #content{
+        width: 70%;
+        margin: auto;
+    }
+    .columns{
+        display:flex;
+    }
+    .row1of3, .col1of2{
+        flex:1;
+    }
+    #main-nav li{
+        flex: 1;
+    }
+    #main-nav li:not(:last-child){
+        border-right:1px solid white;
+    }
+    .about{
+        margin:60px;
+        text-align: left;
+    }
+    .about:nth-child(even){
+        text-align: right;
+    }
+    .about-img{
+        width: 100%;
+        height:auto;
+    }
+    .collection{
+        margin-bottom: 10px;
+        border-bottom:1px solid white;
+    }
+    .collection:nth-child(odd){
+        padding:0px;
+    }
+    .collection:nth-child(even){
+        text-align: left;
+        margin-left:0px;
+    }
+}

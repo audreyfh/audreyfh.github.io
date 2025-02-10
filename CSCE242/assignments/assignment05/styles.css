@@ -1,0 +1,65 @@
+/*Adapted from styles.css for my home page*/
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:rgb(250, 210, 220);
+    color: rgb(137,25,90);
+}
+h1{
+    color:rgb(78, 40, 91);
+    text-align: center;
+    font: size 48px;
+}
+#image img{
+    display:block;
+    margin:auto;
+    padding: 10px;
+}
+#sub-header{
+    color: rgb(123, 83, 136);
+    text-align: center;
+}
+#content{
+    background:rgb(250, 210, 220);
+    width:95%;
+    margin:auto;
+    padding: 0 10px;
+
+}
+.col1of3{
+    background: rgb(255, 163, 192);
+    
+    border: 1px solid rgb(137,25,90);
+}
+.col1of3 h3{
+    text-align: center;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(137,25,90);
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+#colorpicker{
+    display:block;
+    margin:auto;
+}
+#star{
+    text-align: center;
+    color:black;
+    font-size:100px;
+    padding:0px;
+    margin:0px;
+}
+@media (min-width: 768px){
+    .columns{
+        display:flex;
+    }
+    .col1of3{
+        flex:1;
+        margin:50px;
+        padding:5px;
+    }
+}

@@ -69,6 +69,7 @@ a{
     }
     .columns{
         display:flex;
+        flex-wrap:wrap;
     }
     .col1of3, .projectcol{
         flex:1;

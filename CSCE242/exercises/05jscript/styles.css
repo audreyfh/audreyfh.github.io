@@ -3,6 +3,8 @@
     --main-background-color:#CDECEF;
     --primary-color:#2B91AD;
     --gallery-color:#FFB58A;
+    --circle-color:black;
+    --donation-percent: 0%;
 }
 
 body {
@@ -79,6 +81,23 @@ main {
 .hidden{
     display:none;
 }
+.hide-small{
+    display:none;
+}
+#txt-donation{
+    max-width: 40%;
+}
+#thermometer{
+    width: 25%;
+    height: 200px;
+    margin-right: 10%;
+    border: 2px solid var(--primary-color);
+    background: linear-gradient(0deg, red 0% var(--donation-percent), white var(--donation-percent) 100%);
+}
+
+.error{
+    color:darkred;
+}
 
 /* Animations */
 #animation-fun {
@@ -88,13 +107,20 @@ main {
     position:relative;
 }
 
-#ball {
+#ball-area{
+    position:relative;
+}
+
+#ball, #circle {
     height: 30px;
     width:30px;
-    background:blue;
+    background: var(--circle-color);
     border-radius:50px;
     animation-name: fun;
     position:relative;
+    left:35%;
+}
+#ball {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
@@ -131,6 +157,13 @@ main {
     position:absolute;
     top:0;
     right:5px;
+}
+
+#toggle-nav div{
+    width:25px;
+    height:2px;
+    background-color:var(--gallery-color);
+    margin: 6px 0;
 }
 
 #main-nav ul, #sub-nav ul {
@@ -174,6 +207,33 @@ footer p {
     text-align:center;
 }
 
+@media only screen and (min-width: 800px) { 
+    .columns {
+        display:flex;
+    }
+
+    .gallery {
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+
+    .examples {
+        flex-wrap:wrap;
+        justify-content:space-between;
+        margin:0;
+        padding:0;
+    }
+
+    .examples section {
+        max-width:30%;
+        padding:10px;
+        margin:0;
+    }
+
+    .examples section:nth-child( even ) {
+        background:var(--main-background-color);
+    }
+}
 /* Larger screens */
 @media only screen and (min-width: 768px) { 
     .columns {
@@ -217,5 +277,15 @@ footer p {
         position:absolute;
         padding:5px;
         bottom:0;
+    }
+    
+    .examples section {
+        width:18%;
+        padding:10px;
+        margin:0;
+    }
+
+    .hide-small{
+        display:flex;
     }
 }

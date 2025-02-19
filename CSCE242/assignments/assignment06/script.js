@@ -22,15 +22,14 @@ document.getElementById("travel-type").onkeyup = (event) => {
     }
 };
 /*Change heart color*/
-function changeColor(e) {
-    const heart = document.getElementById("heart-color");
-    heart.classList.remove("red", "green", "blue");
-    const color = e.target.dataset.color;
-    document.getElementById("heart-color").classList.add(color);
-}
 const colorbuttons = document.querySelectorAll("section button");
 colorbuttons.forEach((colorbtn) => {
-    colorbtn.onclick = changeColor;
+    colorbtn.onclick = (e) => {
+        const heart = document.getElementById("heart-color");
+        heart.classList.remove("red", "green", "blue");
+        const color = e.target.dataset.color;
+        document.getElementById("heart-color").classList.add(color);
+    };
 });
 
 /*Dropdown*/

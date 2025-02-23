@@ -95,6 +95,7 @@ main {
     background: linear-gradient(0deg, red 0% var(--donation-percent), white var(--donation-percent) 100%);
 }
 .testingstair{
+    display:grid;
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-top: 2px solid black;

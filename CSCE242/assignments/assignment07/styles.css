@@ -22,6 +22,7 @@ h2{
 
 #stairs{
     position:relative;
+    display:grid;
 }
 .testingstair:first-child{
     border-top: 0px;

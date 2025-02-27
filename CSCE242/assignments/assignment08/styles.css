@@ -1,0 +1,78 @@
+:root {
+    --main-background-color: #f1f2e9;
+    --primary-color:#2B91AD;
+    --secondary-color:#FFB58A;
+    --popup-background-color: #faffd7;
+
+}
+body{
+    background: var(--main-background-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    margin:auto;
+}
+header h1, footer{
+    text-align: center;
+    color: var(--primary-color);
+}
+h2{
+    text-align: center;
+    color: var(--secondary-color);
+}
+#main-section{
+    position:relative;
+}
+#popup{
+    background: var(--popup-background-color);
+    color: var(--secondary-color);
+    position:absolute;
+    top:30%;
+    left:30%;
+    box-shadow: 10px 10px 5px var(--secondary-color);
+}
+#popup img{
+    max-width: 25%;
+    height:auto;
+    padding: 5px;
+}
+#popup span{
+    display: block;
+    text-align: right;
+    padding-right:10px;
+    cursor: pointer; /*prevents highlighter cursor from showing when hovered over*/
+}
+#popup h3{
+    text-align: center;
+}
+a{
+    color: var(--secondary-color);
+ }
+#listelement{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+.hidden{
+    display: none;
+}
+
+ #example section{
+    background: var(--main-background-color);
+    text-align: center;
+    color: var(--primary-color);
+ }
+ 
+ #arrays li{
+    list-style-type: none;
+    padding: 10px;
+ }
+
+ @media only screen and (min-width: 768px) {
+    #example{
+        display:flex;
+    }
+    section{
+        flex:1;
+    }
+ }

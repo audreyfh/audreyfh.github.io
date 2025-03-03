@@ -1,86 +1,89 @@
-//version 1: arrow function
-
-//alert("hello"); annoying popup
-//console.log("hi me"); in dev tools console
-
-//do stuff when button is clicked
+//do stuff when button clicked
 document.getElementById("btn-click-me").onclick = () => {
-    console.log("this is another way to do it");
-    document.getElementById("result").innerHTML="Hi Audrey!";
+    console.log("WOW!");
+    document.getElementById("result").innerHTML="Hi Portia";
 };
 
+//change color
 document.getElementById("btn-color").onclick = () => {
     const messageP = document.getElementById("message");
-    messageP.innerHTML = "Goodbye";
+    messageP.innerHTML = "Good bye";
     messageP.classList.toggle("sad");
-};
 
+}
+
+//happy script
 document.getElementById("btn-happy").onclick = () => {
-    console.log("happy clicked");
-    const display = document.getElementById("display");
-    display.classList.remove("hidden");
-    display.classList.add("happy");
-    display.innerHTML = "Good Times";
-
+    const displayP = document.getElementById("display");
+    displayP.classList.remove("hidden");
+    displayP.classList.add("happy");
+    displayP.innerHTML = "Good Times";
 };
 
+//sad script
 document.getElementById("btn-sad").onclick = () => {
-    console.log("sad clicked");
-    const display = document.getElementById("display");
-    display.classList.remove("hidden");
-    display.classList.add("sad");
-    display.innerHTML = "Bad Times";
-
+    const displayP = document.getElementById("display");
+    displayP.classList.remove("hidden");
+    displayP.classList.add("sad");
+    displayP.innerHTML = "Sad TImes";
 };
 
 document.getElementById("btn-clear").onclick = () => {
-    console.log("clear clicked");
     document.getElementById("display").classList.add("hidden");
 };
 
-//key up
-document.getElementById("emotion-txt").onkeyup = (event) => {
-    //const emotion = document.getElementById("emotion-txt").value;
-    document.getElementById("feeling-display").innerHTML = "You are feeling "+ event.currentTarget.value;
+//key down
+document.getElementById("txt-emotion").onkeyup = (event) => {
+    //const emotion = document.getElementById("txt-emotion").value;
+    document.getElementById("emotional-message").innerHTML = 
+    "You are feeling " + event.currentTarget.value;
+}
+
+//toggling the nav
+document.getElementById("toggle-nav").onclick = () => {
+    document.getElementById("nav-items").classList.toggle("hide-small");
 };
 
-//Showing the color
-document.getElementById("btn-colorchange").onclick = () => {
-    console.log("color button clicked");
-    const color = document.getElementById("color-input").value.toLowerCase().trim();
+//show color message 
+document.getElementById("btn-choose-color").onclick = () => {
+    const color = document.getElementById("txt-color").value.toLowerCase().trim();
     let mood = "";
 
     if(color == "blue"){
-        mood = "grumpy >:(";
-    }
+        mood = "grumpy";
+    } 
     else if(color == "yellow"){
-        mood = "mellow B)";
+        mood = "mellow";
     }
-    else{
+    else {
         mood = "undefined";
     }
-    document.getElementById("color-message").innerHTML = `You chose ${color}. You are feeling ${mood}`
+
+    
+    document.getElementById("color-message").innerHTML = 
+    `You chose ${color}. You are feeling ${mood}.`
 };
 
+/* moving the circle */
 let pos = 0;
-const changeCirclePos = (increment) =>{
+const changeCirclePos = (increment) => {
     pos += increment;
     document.getElementById("circle").style.setProperty("top", pos + "px");
 };
 
-/*Moving Circle*/
 document.getElementById("btn-down").onclick = () => {
     changeCirclePos(10);
-};
+}
 
 document.getElementById("btn-up").onclick = () => {
     changeCirclePos(-10);
-};
+}
 
 document.getElementById("btn-pick-color").onchange = (event) => {
     const color = event.currentTarget.value;
+    //document.getElementById("circle").style.setProperty("background", color);
     document.getElementById("circle").style.setProperty("--circle-color", color);
-};
+}
 
 /* Donations thermometer */
 const GOAL = 1000;

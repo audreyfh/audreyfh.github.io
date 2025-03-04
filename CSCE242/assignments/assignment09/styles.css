@@ -3,7 +3,8 @@
     --primary-text-color: #A73995;
     --secondary-text-color: #893168;
     --tertiary-text-color: #48093e;
-    --sub-background-color: #8b247a ;
+    --sub-background-color: #8b247a;
+    --popup-background-color: #ae3099;
 }
 body{
     text-align: center;
@@ -25,6 +26,7 @@ h2{
 #cats{
     background: var(--sub-background-color);
     color:var(--tertiary-text-color);
+    margin:10px;
     padding:10px;
 }
 
@@ -37,18 +39,54 @@ h2{
     height:200px;
     width:auto;
 }
-.bigger{
+
+.catpopup{
+    background: var(--popup-background-color);
+    margin:0px;
+    padding:1px;
+    color: var(--tertiary-text-color);
+}
+.catpopup img{
     height:250px;
     width:auto;
 }
+.catpopup h2{
+    text-align: left;
+    color: var(--tertiary-text-color);
+    padding:10px;
+}
+#flex1{
+    text-align: left;
+    margin:0;
+    padding:10px;
+}
 
+#imgstyling{
+    padding:10px;
+}
+.button{
+    color:var(--tertiary-text-color) !important;
+    background: transparent;
+}
 
+.hidden{
+    display: none;
+}
 
+#testing{
+    background:#A73995;
+    width: 70%;
+    margin: auto;
+    padding-top:10px;
+}
+#flex2{
+    align-items: right;
+}
 @media (min-width: 768px){
-    #cats{
+    #cats, .flex{
         display:flex;
     }
-    .catinfo{
+    .catinfo, #flex1{
         flex:1;
     }
 }

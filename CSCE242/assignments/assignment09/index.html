@@ -2,6 +2,7 @@
 <head>
     <title>Assignment 9</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
     <header>
@@ -10,30 +11,25 @@
     <main>
         <h2>Classes</h2>
         <section id="cats">
-            <div class="catinfo">
-                <h3>Ragdoll</h3>
-                <img src="images/ragdoll.jpg">
-            </div>
-            <div class="catinfo">
-                <h3>Sphynx</h3>
-                <img src="images/sphynx.jpg">
-            </div>
-            <div class="catinfo">
-                <h3>Abyssinian</h3>
-                <img src="images/abyssinian.jpg">
-            </div>
-            <div class="catinfo">
-                <h3>Maine Coon</h3>
-                <img src="images/mainecoon.jpg">
-            </div>
-            <div class="catinfo">
-                <h3>Devon Rex</h3>
-                <img src="images/devonrex.jpg">
-            </div>
         </section>
     </main>
     <footer>
         <p><a href="https://cfa.org/">Images from the Cat Fanciers' Association</a></p>
     </footer>
+    <div id="popup" class="w3-modal">
+        <div class="w3-modal-content popupbody">
+            <header class="catpopup">
+            <span onclick="document.getElementById('popup').style.display='none'" 
+            class="w3-button w3-display-topright button">&times;</span>
+            <h2></h2>
+          </header>
+          <div class="catpopup flex">
+            <div id="flex1">
+                <p></p>
+            </div>
+            <img id="imgstyling">
+          </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image Without Stretch</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 5px;
+        }
+
+        .image-container {
+            display: grid;
+            gap: 20px;
+        }
+
+        .original-image,
+        .stretched-image {
+            border: 2px solid rgb(255, 0, 221);
+            overflow: hidden;
+        }
+
+
+        .filled-image img {
+            object-fit: cover;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="image-container">
+            <h2>Original Image</h2>
+            <div class="original-image">
+                <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20231027155426/Best-Front-End-Development-Courses.png"
+                    alt="Original Image" />
+            </div>
+            <h2>Filled Image without Stretch</h2>
+            <div class="filled-image">
+                <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20231027155426/Best-Front-End-Development-Courses.png"
+                    alt="Stretched Image" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+[
+    
+    {
+        "name": "Pet Rock",
+        "image-square": "petrock.jpg",
+        "image-2x1": "petrock2x1.jpg",
+        "image-5x4": "petrock5x4.jpg",
+        "year": "N/A",
+        "value": "Priceless",
+        "origin": "USA",
+        "description":"",
+        "rating": "",
+        "ranking_id": 1,
+        "categories": [
+            "junk",
+            "weird",
+            "home"
+        ]
+    },
+    {
+        "name": "Intriguing Candle",
+        "image-square": "candle.jpg",
+        "image-2x1": "candle2x1.jpg",
+        "image-5x4": "candle5x4.jpg",
+        "year": "Unknown",
+        "value": "",
+        "origin": "",
+        "description":"",
+        "rating": "",
+        "ranking_id": 2,
+        "categories": [
+            "misc",
+            "home"
+        ]
+    },
+    {
+        "name": "",
+        "image-square": "",
+        "image-2x1": "",
+        "image-5x4": "",
+        "year": "",
+        "value": "",
+        "origin": "",
+        "description":"",
+        "rating": "",
+        "ranking_id": 3,
+        "categories": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "image-square": "",
+        "image-2x1": "",
+        "image-5x4": "",
+        "year": "",
+        "value": "",
+        "origin": "",
+        "description":"",
+        "rating": "",
+        "ranking_id": 4,
+        "categories": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "image-square": "",
+        "image-2x1": "",
+        "image-5x4": "",
+        "year": "",
+        "value": "",
+        "origin": "",
+        "description":"",
+        "rating": "",
+        "ranking_id": 5,
+        "categories": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "image-square": "",
+        "image-2x1": "",
+        "image-5x4": "",
+        "year": "",
+        "value": "",
+        "origin": "",
+        "description":"",
+        "rating": "",
+        "ranking_id": 6,
+        "categories": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "image-square": "",
+        "image-2x1": "",
+        "image-5x4": "",
+        "year": "",
+        "value": "",
+        "origin": "",
+        "description":"",
+        "rating": "",
+        "ranking_id": 7,
+        "categories": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "image-square": "",
+        "image-2x1": "",
+        "image-5x4": "",
+        "year": "",
+        "value": "",
+        "origin": "",
+        "description":"",
+        "rating": "",
+        "ranking_id": 8,
+        "categories": [
+            ""
+        ]
+    }
+]

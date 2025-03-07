@@ -1,0 +1,228 @@
+/*Sorry in advance; this isn't well formatted, will fix in final version*/
+:root {
+    --main-background-color: #C17D9A;
+    --secondary-background-color: #F8C9CC;
+    --primary-text-color: #2E1C2B;
+    --secondary-text-color: #6A2555;
+    --border-color: #6A2555;
+}
+body{
+    background:var(--main-background-color);
+    color:var(--primary-text-color);
+}
+#main-body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    text-align:center;
+}
+
+#main-header, #main-footer{
+    background:var(--main-background-color);
+    text-align: center;
+    color:var(--primary-text-color);
+}
+.home{
+    color:var(--primary-text-color);
+}
+#top-section h2{
+    text-align: center;
+}
+img{
+    width:auto;
+    height:auto;
+    display:block;
+    margin:auto;
+    border: 3px solid var(--border-color);
+}
+#main-image img{
+    height: 500px;
+    width:auto;
+}
+.row1of3{
+    background:var(--secondary-background-color);
+    margin:25px;
+    padding:5px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.row1of3:first-child{
+    margin-top: 60px;
+}
+.col1of2{
+    background:var(--secondary-background-color);
+    text-align: center;
+    padding:0 10px 10px 10px;
+    margin:10px;
+}
+.col1of2 a{
+    color: var(--primary-text-color);
+}
+.about {
+    padding:5px;
+    background: var(--secondary-background-color);
+    border:1px solid var(--secondary-text-color);
+    color:var(--primary-text-color);
+}
+
+.about-img{
+    margin-top:20px;
+    padding:5px;
+    text-align: center;
+}
+.about-p{
+    font-size: 18px;
+}
+
+.trinket-text{
+    font-size: 14px;
+}
+.gallery{
+    background:var(--main-background-color);
+}
+.links{
+    background:blue;
+}
+
+main{
+    background:var(--main-background-color);
+}
+#main-nav ul{
+    padding-left:0;
+}
+#main-nav li{
+    list-style-type: none;
+    padding:2px;
+    text-align:center;
+    border-bottom:1px solid transparent;
+}
+a{
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+.highlighted a{
+    border-bottom:1px solid var(--secondary-text-color);
+    color: var(--secondary-text-color) !important;/*overrides previous set color for this element*/
+}
+#main-nav a, .row1of3 a{
+    color:var(--primary-text-color);
+}
+
+#toggle-nav div{
+    margin-left:5px;
+    width:25px;
+    height:2px;
+    background-color:var(--primary-text-color);
+    margin: 6px 0;
+}
+
+#trinketformat{
+    background: var(--secondary-background-color);
+    text-align: center;
+}
+#trinketformat p{
+    width:80%;
+    margin:auto;
+    text-align:left;
+    padding:5px;
+}
+
+.rating{
+    color:#ffd83d;
+}
+
+.collection{
+    background:var(--secondary-background-color);
+    padding:5px;
+    margin:0px;
+    
+}
+.collection a{
+    color: var(--primary-text-color);
+}
+.collection-nav a{
+    color: var(--secondary-text-color);
+}
+.collectionimg{
+    width: 250px;
+    height:auto;
+}
+#firstplace{
+    background: var(--secondary-background-color);
+    padding:10px;
+}
+#firstplaceimg{
+    max-width:80%;
+    height:auto;
+}
+.ranking{
+    background:var(--secondary-background-color);
+    padding:5px;
+    
+}
+.ranking a, #firstplace a{
+    color: var(--secondary-text-color);
+}
+.hide-small{
+    display:none;
+}
+@media all and (orientation: landscape){
+    #content{
+        width: 75%;
+        margin: auto;
+    }
+
+    .columns, #home-main, #podium, #firstplace{
+        display:flex;
+    }
+    .row1of3, .col1of2, .ranking{
+        flex:1;
+    }
+    #main-nav li{
+        flex: 1;
+    }
+    .about{
+        margin:60px;
+        text-align: left;
+    }
+    .about:nth-child(even){
+        text-align: right;
+    }
+    .about:nth-child(even) h3{
+        padding-right:10px;
+    }
+    .about:nth-child(even) p{
+        padding-right:10px;
+    }
+    .about-img{
+        width: 100%;
+        height:auto;
+    }
+    .about-img:nth-child(even){
+        padding-right: 20px;
+    }
+    .collection{
+        margin-bottom: 10px;
+        border-bottom:1px solid var(--secondary-background-color);
+    }
+    .collection:nth-child(odd){
+        padding:0px;
+    }
+    .collection:nth-child(even){
+        text-align: left;
+        margin-left:0px;
+        border-bottom:1px solid var(--secondary-background-color);
+    }
+    #firstplace{
+        width:70%;
+        margin:auto;
+    }
+    .ranking{
+        margin:10px;
+    }
+    .hide-small{
+        display:flex;
+    }
+    #toggle-nav{
+        display:none;
+    }
+}

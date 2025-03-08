@@ -3,7 +3,7 @@
     {
         "name": "Pet Rock",
         "imagesquare": "images/petrock.jpg",
-        "imagetwobyone": "images/petrock2x1.jpg",
+        "image2by1": "images/petrock2x1.jpg",
         "image5by4": "images/petrock5x4.jpg",
         "year": "N/A",
         "value": "Priceless",
@@ -22,7 +22,7 @@
     {
         "name": "Mia Macaron",
         "imagesquare": "images/macaron.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "images/macaron5x4.jpg",
         "year": "2024",
         "value": "$22.00",
@@ -39,7 +39,7 @@
     {
         "name": "Intriguing Candle",
         "imagesquare": "images/candle.jpg",
-        "imagetwobyone": "images/candle2x1.jpg",
+        "image2by1": "images/candle2x1.jpg",
         "image5by4": "images/candle5x4.jpg",
         "year": "Unknown",
         "value": "$5.50",
@@ -57,7 +57,7 @@
     {
         "name": "Hangyodon Hiding",
         "imagesquare": "images/hangyodon.jpg",
-        "imagetwobyone": "images/hangyodon2x1.jpg",
+        "image2by1": "images/hangyodon2x1.jpg",
         "image5by4": "images/hangyodon5x4.jpg",
         "year": "2019",
         "value": "$8.00",
@@ -74,7 +74,7 @@
     {
         "name": "Monchichi",
         "imagesquare": "images/monchichi.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "images/monchichi5x4.jpg",
         "year": "Unknown",
         "value": "$16.00",
@@ -90,7 +90,7 @@
     {
         "name": "Custom Blythe Doll",
         "imagesquare": "images/blythe.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "null",
         "year": "N/A",
         "value": "$50.00-$200.00+",
@@ -106,7 +106,7 @@
     {
         "name": "Comically Large Taper Candle (minimum 15 inches)",
         "imagesquare": "images/largecandle.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "null",
         "year": "N/A",
         "value": "$15.00-$25.00",
@@ -122,7 +122,7 @@
     {
         "name": "Tea Pet",
         "imagesquare": "images/teapet.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "null",
         "year": "N/A",
         "value": "$15.00-$50.00+",
@@ -138,7 +138,7 @@
     {
         "name":"Draculara",
         "imagesquare": "images/drac.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "drac5x4.jpg",
         "year": "2023",
         "origin": "USA",
@@ -153,7 +153,7 @@
     {
         "name":"Smiski doing Yoga",
         "imagesquare": "images/smiski.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "images/smiski.jpg",
         "year": "Unknown",
         "origin": "Japan",
@@ -168,7 +168,7 @@
     {
         "name":"Cat in Shark Costume",
         "imagesquare": "images/catshark.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "images/catshark5x4.jpg",
         "year": "Unknown",
         "origin": "Unknown",
@@ -184,7 +184,7 @@
     {
         "name":"Smiski doing Yoga",
         "imagesquare": "images/smiski.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "images/smiski5x4.jpg",
         "year": "Unknown",
         "origin": "Japan",
@@ -200,7 +200,7 @@
     {
         "name":"My Melody",
         "imagesquare": "images/mymelo.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "images/mymelo5x4.jpg",
         "year": "Unknown",
         "origin": "Taiwan",
@@ -216,7 +216,7 @@
     {
         "name":"Artsy Bear",
         "imagesquare": "images/bear.jpg",
-        "imagetwobyone": "null",
+        "image2by1": "null",
         "image5by4": "images/bear5x4.jpg",
         "year": "Unknown",
         "origin": "Unknown",

@@ -24,6 +24,11 @@ body{
 .home{
     color:var(--primary-text-color);
 }
+
+.trinketh1{
+    padding: 10px 5px 5px 5px;
+}
+
 #top-section h2{
     text-align: center;
 }
@@ -151,6 +156,10 @@ a{
 }
 .squareimg{
     width: 250px;
+    height:auto;
+}
+.fivebyfourimg{
+    max-width:80%;
     height:auto;
 }
 .firstplace{

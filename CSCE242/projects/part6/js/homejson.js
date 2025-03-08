@@ -22,7 +22,7 @@ window.onload = async() =>{
                 const a = document.createElement("a");
                 a.href = "example-trinket.html";
                 const img = document.createElement("img");
-                img.src = trinket.imagetwobyone;
+                img.src = trinket.image2by1;
                 img.classList.add("sub-image");
                 a.append(img);
                 const h3 = document.createElement("h3");

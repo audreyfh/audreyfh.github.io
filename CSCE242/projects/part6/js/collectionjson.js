@@ -8,3 +8,8 @@ const getTrinkets = async() => {
         console.log(error);
     }
 };
+
+window.onload = async()=>{
+    const trinkets = await getTrinkets();
+    /*Currently, this is an example collection which just contains the top three rated trinkets.*/
+}

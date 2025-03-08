@@ -146,6 +146,9 @@ a{
 .collection-nav a{
     color: var(--secondary-text-color);
 }
+.collectionimg{
+    max-width: 100%;
+}
 .squareimg{
     width: 250px;
     height:auto;

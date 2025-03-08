@@ -14,7 +14,8 @@
         "categories": [
             "junk",
             "weird",
-            "home"
+            "home",
+            "example"
         ],
         "extraparam": "null"
     },
@@ -31,7 +32,8 @@
         "ranking_id": 2,
         "categories": [
             "cute",
-            "collectible"
+            "collectible",
+            "example"
         ]
     },
     {
@@ -48,7 +50,8 @@
         "categories": [
             "home",
             "new",
-            "misc"
+            "misc.",
+            "example"
         ]
     },
     {
@@ -80,7 +83,7 @@
         "rating": "",
         "ranking_id": 5,
         "categories": [
-            ""
+            "vintage"
         ],
         "extraparam": "null"
     },
@@ -221,7 +224,7 @@
         "rating": "",
         "ranking_id": 11,
         "categories": [
-            "misc"
+            "misc."
         ],
         "extraparam": "null"
     }

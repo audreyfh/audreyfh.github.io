@@ -26,11 +26,22 @@ window.onload = async() =>{
                 img.classList.add("sub-image");
                 a.append(img);
                 const h3 = document.createElement("h3");
-                h3.innerHTML = trinket.name;
+                if(trinket.ranking_id == 1){
+                    h3.innerHTML = "Highest Rating";
+                }
+                else if(hasCategory(trinket.categories, "new") == true){
+                    h3.innerHTML = "Newest Trinket";
+                } else if(hasCategory(trinket.categories, "random") == true){
+                    h3.innerHTML = "Random Trinket";
+                }
                 a.append(h3);
                 section.append(a);
                 div.append(section);
             }
         });
     });
+}
+
+function hasCategory(list, category){
+    return list.includes(category);
 }

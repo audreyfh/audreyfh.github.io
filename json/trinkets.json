@@ -15,7 +15,8 @@
             "junk",
             "weird",
             "home"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name": "Mia Macaron",
@@ -64,7 +65,8 @@
         "categories": [
             "home",
             "random"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name": "Monchichi",
@@ -79,7 +81,8 @@
         "ranking_id": 5,
         "categories": [
             ""
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name": "Custom Blythe Doll",
@@ -94,7 +97,8 @@
         "ranking_id": 0,
         "categories": [
             "future"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name": "Comically Large Taper Candle (minimum 15 inches)",
@@ -109,7 +113,8 @@
         "ranking_id": 0,
         "categories": [
             "future"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name": "Tea Pet",
@@ -124,7 +129,8 @@
         "ranking_id": 0,
         "categories": [
             "future"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name":"Draculara",
@@ -138,7 +144,8 @@
         "ranking_id": 6,
         "categories": [
             "doll"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name":"Smiski doing Yoga",
@@ -152,7 +159,8 @@
         "ranking_id": 7,
         "categories": [
             "collectible"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name":"Cat in Shark Costume",
@@ -167,7 +175,8 @@
         "categories": [
             "animal",
             "collectible"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name":"Smiski doing Yoga",
@@ -182,7 +191,8 @@
         "categories": [
             "collectible",
             "foreign"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name":"My Melody",
@@ -197,7 +207,8 @@
         "categories": [
             "foreign",
             "cute"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name":"Artsy Bear",
@@ -211,7 +222,8 @@
         "ranking_id": 11,
         "categories": [
             "misc"
-        ]
+        ],
+        "extraparam": "null"
     }
     
 ]

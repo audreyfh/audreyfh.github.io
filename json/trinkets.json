@@ -3,7 +3,7 @@
     {
         "name": "Pet Rock",
         "imagesquare": "images/petrock.jpg",
-        "imagetwobyone": "/json/images/petrock2x1.jpg",
+        "imagetwobyone": "images/petrock2x1.jpg",
         "image5by4": "images/petrock5x4.jpg",
         "year": "N/A",
         "value": "Priceless",

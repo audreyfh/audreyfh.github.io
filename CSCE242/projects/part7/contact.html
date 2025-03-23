@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audrey's Trinket Database: Home</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="main-body">
+        <header id="main-header">
+            <h1><a href="#" class="home">Audrey's Trinket Database</a></h1>
+            <nav id="main-nav">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="columns hidden">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li  class = "highlighted"><a href="contact.html">Contact Me</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                    <li><a href="futuretrinkets.html">Future Trinkets</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content">
+            <main>
+                <section class="contact">
+                    <h1>Contact Me!</h1>
+                    <h3 id="contact-h3">Have any questions, comments, or concerns regarding a trinket? Fill 
+                        out the form and I'll get back to you ASAP!
+                    </h3>
+
+                    <form id="contact-me"
+                    action="https://api.web3forms.com/submit"
+                    method="POST">
+
+                        <input type="hidden" name="access_key" value="2e66af08-5589-4e66-ab77-1e5cab48f56d">
+
+                        <p class="contactform">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required />
+                        </p>
+                        <p class="contactform">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required />
+                        </p>
+                        <p class="contactform">
+                            <label for="message">Message:</label>
+                            <input type="text" id="message" name="message" required />
+                        </p>
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                    <h3 id="result"></h3>
+                </section>
+            </main>
+            <footer id="main-footer"><p>&copy; audreyfh.github.io</p></footer>
+        </div>
+        <script src="js/script.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="js/email.js"></script>
+    </body>
+</html>

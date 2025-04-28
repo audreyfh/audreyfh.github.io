@@ -9,15 +9,14 @@
         "value": "Priceless",
         "origin": "USA",
         "description": "This is one of the ugliest trinkets I own. However, it was given to me by my boyfriend, who spent around 20 minutes making it and told me it was \"me as a rock\". If you squint hard enough, it kind of does look like me a bit (not really). 5 stars for sentimental value." ,
-        "rating": "★★★★★",
-        "ranking_id": 1,
+        "rating": "5",
         "categories": [
-            "junk",
+            "Junk",
             "weird",
             "home",
             "example"
         ],
-        "extraparam": "null"
+        "extraparam": "Highest Rating"
     },
     {
         "name": "Mia Macaron",
@@ -28,13 +27,13 @@
         "value": "$22.00",
         "origin": "Indonesia",
         "description":"Despite her young age, Mia Macaron already has an incredibly worldly outlook. Starting in a factory in Indonesia, Mia was shipped to France (possibly stopping in London, her company's homeland)! Here, she patiently sat in Paris's Jellycat Patisserie, until she was eventually picked up and bought by an American tourist, who just happened to be my mother.",
-        "rating": "★★★★☆",
-        "ranking_id": 2,
+        "rating": "4",
         "categories": [
-            "cute",
-            "collectible",
+            "Cute",
+            "Collectible",
             "example"
-        ]
+        ],
+        "extraparam": "null"
     },
     {
         "name": "Intriguing Candle",
@@ -45,14 +44,14 @@
         "value": "$5.50",
         "origin": "Unknown",
         "description":"After hours of slaving away at my computer, I looked to this candle to see it was almost completely finished, and in an incredibly interesting shape to boot. While this is incredibly mundane, looking at it makes me feel like an accomplished worker (and makes me wonder if I have secret candle powers).",
-        "rating": "★★★★☆",
-        "ranking_id": 3,
+        "rating": "4",
         "categories": [
             "home",
             "new",
-            "misc.",
+            "Misc",
             "example"
-        ]
+        ],
+        "extraparam": "Newest Trinket"
     },
     {
         "name": "Hangyodon Hiding",
@@ -62,28 +61,30 @@
         "year": "2019",
         "value": "$8.00",
         "origin": "Japan",
-        "description":"",
-        "rating": "★★★☆☆",
-        "ranking_id": 4,
+        "description":"Hangyodon is a kind, soft-hearted fish from Japan, created by the mascot company Sanrio. Even if you haven't heard of him, you've definitely heard of his good friend and fellow mascot Hello Kitty! I obtained this Hangyodon figuring from a \"hide-and-seeked\" theme blind box.",
+        "rating": "3",
         "categories": [
             "home",
-            "random"
+            "Foreign",
+            "Collectible",
+            "Cute"
         ],
-        "extraparam": "null"
+        "extraparam": "Random Trinket"
     },
     {
-        "name": "Monchichi",
+        "name": "Monchhichi",
         "imagesquare": "images/monchichi.jpg",
         "image2by1": "null",
         "image5by4": "images/monchichi5x4.jpg",
         "year": "Unknown",
         "value": "$16.00",
-        "origin": "",
-        "description":"",
-        "rating": "",
-        "ranking_id": 5,
+        "origin": "Japan",
+        "description":"Monchhichis are a line of cute and cuddly toy monkeys from Japan, licensed in the United States by Mattel. While their popularity has long faded since their heyday from the mid 70s-80s, the toys are still being produced and have maintained a niche yet strong cult following of collectors. While I'm not a collector by any means, I find these little guys super charming, so I knew I had to pick up this keychain as soon as I saw it!",
+        "rating": "4",
         "categories": [
-            "vintage"
+            "Vintage",
+            "Cute",
+            "Animal"
         ],
         "extraparam": "null"
     },
@@ -95,9 +96,8 @@
         "year": "N/A",
         "value": "$50.00-$200.00+",
         "origin": "N/A",
-        "description":"Blythe is a line of fashion dolls which were originally sold in 1972 in the U.S., U.K., Australia, and Japan. While the dolls never enjoyed large mainstream success, they have since developed a cult following. Today, most blythe doll collectors seek out custom dolls made by individual sellers, or even choose to customize their own doll using knock-off/replica parts.<br> <strong>Why I want it:</strong> While many find Blythe dolls creepy, I think they're super cute and endearing, and would particularly like to make a \"mini-me\" blythe doll to display in my room.",
-        "rating": "none",
-        "ranking_id": 0,
+        "description":"Blythe is a line of fashion dolls which were originally sold in 1972 in the U.S., U.K., Australia, and Japan. While the dolls never enjoyed large mainstream success, they have since developed a cult following. Today, most blythe doll collectors seek out custom dolls made by individual sellers, or even choose to customize their own doll using knock-off/replica parts.",
+        "rating": "While many find Blythe dolls creepy, I think they're super cute and endearing, and would particularly like to make a \"mini-me\" blythe doll to display in my room.",
         "categories": [
             "future"
         ],
@@ -111,9 +111,8 @@
         "year": "N/A",
         "value": "$15.00-$25.00",
         "origin": "N/A",
-        "description":"A taper candle is a long, thin candle, which were formerly most often used to light rooms after nightfall, but are now more commonly used as a form of decorative lighting. Most taper candles are between 10-12 inches, and have a burn time of approx. 10 hours.<br> <strong>Why I want it:</strong> For some reason, I find that when studying or doing homework I focus best when the only lightsource available to me is a taper candle. However, the average taper candle doesn't last long enough to be convenient for my daily needs, and I've (quite literally) been burning through candles since I made this discovery.",
-        "rating": "none",
-        "ranking_id": 0,
+        "description":"A taper candle is a long, thin candle, which were formerly most often used to light rooms after nightfall, but are now more commonly used as a form of decorative lighting. Most taper candles are between 10-12 inches, and have a burn time of approx. 10 hours.",
+        "rating": "For some reason, I find that when studying or doing homework I focus best when the only lightsource available to me is a taper candle. However, the average taper candle doesn't last long enough to be convenient for my daily needs, and I've (quite literally) been burning through candles since I made this discovery.",
         "categories": [
             "future"
         ],
@@ -127,9 +126,8 @@
         "year": "N/A",
         "value": "$15.00-$50.00+",
         "origin": "China",
-        "description":"In Chinese tea ceremonies, tea pets are a decorative ceramic figurine and good luck charm. Since the most tea leaves produce the strongest flavor after their second steeping, it's traditional to pour the tea from your first steep onto your tea pet as an offering of sorts.<br> <strong>Why I want it:</strong> As someone who drinks tea a good bit, I think this would be a fun addition to my tea drinking. Also look at how cute it is!",
-        "rating": "none",
-        "ranking_id": 0,
+        "description":"In Chinese tea ceremonies, tea pets are a decorative ceramic figurine and good luck charm. Since the most tea leaves produce the strongest flavor after their second steeping, it's traditional to pour the tea from your first steep onto your tea pet as an offering of sorts.",
+        "rating": "As someone who drinks tea a good bit, I think this would be a fun addition to my tea drinking. Also look at how cute it is!",
         "categories": [
             "future"
         ],
@@ -141,43 +139,30 @@
         "image2by1": "null",
         "image5by4": "drac5x4.jpg",
         "year": "2023",
+        "value": "$20.00",
         "origin": "USA",
-        "description": "",
-        "rating": "",
-        "ranking_id": 6,
+        "description": "Draculara is the 1600 year old daughter of Dracula and student at Monster High, a High School and safe haven for the various children of monsters, cryptids, ghosts, and other equally spooky icons. As a kid I loved Monster High Dolls, but never got to get all of the ones I wanted, so I've decided to start healing my inner child by buying them with my adult money!",
+        "rating": "3",
         "categories": [
-            "doll"
+            "Doll"
         ],
         "extraparam": "null"
     },
     {
-        "name":"Smiski doing Yoga",
-        "imagesquare": "images/smiski.jpg",
-        "image2by1": "null",
-        "image5by4": "images/smiski.jpg",
-        "year": "Unknown",
-        "origin": "Japan",
-        "description": "",
-        "rating": "",
-        "ranking_id": 7,
-        "categories": [
-            "collectible"
-        ],
-        "extraparam": "null"
-    },
-    {
-        "name":"Cat in Shark Costume",
+        "name":"Killer Whale Mofusand",
         "imagesquare": "images/catshark.jpg",
         "image2by1": "null",
         "image5by4": "images/catshark5x4.jpg",
-        "year": "Unknown",
-        "origin": "Unknown",
-        "description": "",
-        "rating": "",
-        "ranking_id": 8,
+        "year": "2023",
+        "value": "Unknown",
+        "origin": "Japan",
+        "description": "Mofusand refers to a series of cat illustrations created by the Japanese artist Juno. After a massive rise in popularity, a large amount of blind boxes and collectible figurines modeled after their illustrations began to be produced, including a Shark Blind box from which I got this little guy. He's beautiful and perfect, but I had to deduct 1 star since Killer Whales aren't Sharks.",
+        "rating": "4",
         "categories": [
-            "animal",
-            "collectible"
+            "Animal",
+            "Collectible",
+            "Cute",
+            "Foreign"
         ],
         "extraparam": "null"
     },
@@ -187,13 +172,14 @@
         "image2by1": "null",
         "image5by4": "images/smiski5x4.jpg",
         "year": "Unknown",
+        "value": "$12.50",
         "origin": "Japan",
-        "description": "",
-        "rating": "",
-        "ranking_id": 9,
+        "description": "Smiski is a small, glow-in-the-dark green creature with a constantly neutral expression, despite the variety of fun, random, and even bizarre tasks he can be seen completing. This one was the perfect size to sit on the top of my TV, where he watches me and my roommates while tirelessly doing aerobics. Good for you, Smiski!",
+        "rating": "5",
         "categories": [
-            "collectible",
-            "foreign"
+            "Collectible",
+            "Foreign",
+            "Misc."
         ],
         "extraparam": "null"
     },
@@ -203,30 +189,62 @@
         "image2by1": "null",
         "image5by4": "images/mymelo5x4.jpg",
         "year": "Unknown",
+        "value": "Priceless",
         "origin": "Taiwan",
-        "description": "",
-        "rating": "",
-        "ranking_id": 10,
+        "description": "Given to me by a close friend who obtained it during a visit to Taiwan during her childhood, this My Melody plushie is my absolute favorite out of my vast collection. With a daisy on her head and a pretty pink dress, her beauty captivates all who gaze upon her!",
+        "rating": "4",
         "categories": [
-            "foreign",
-            "cute"
+            "Foreign",
+            "Cute",
+            "Doll",
+            "Animal"
         ],
         "extraparam": "null"
     },
     {
-        "name":"Artsy Bear",
+        "name":"Beatrice",
         "imagesquare": "images/bear.jpg",
         "image2by1": "null",
         "image5by4": "images/bear5x4.jpg",
         "year": "Unknown",
+        "value": "$2.00",
         "origin": "Unknown",
-        "description": "",
-        "rating": "",
-        "ranking_id": 11,
+        "description": "This artsy faux-ceramic bear, whom I've lovingly dubbed \"Beatrice\", is a wonderfully kitschy creature which I found among the various odds and ends of Goodwill. Shortly before taking this photograph, I accidentally dropped her, breaking off a small part of her base and guaranteeing her a spot in my cart out of guilt. While she can't talk since she's an inanimate object, I like to think that she has forgiven me for my mistake, although I'll never truly know.",
+        "rating": "3",
         "categories": [
-            "misc."
+            "Misc.",
+            "Animal"
+        ],
+        "extraparam": "null"
+    },
+    {
+        "name":"Edit Me!",
+        "imagesquare": "images/editme.png",
+        "image2by1": "null",
+        "image5by4": "null",
+        "year": "2025",
+        "value": "$5.00",
+        "origin": "United States",
+        "description": "Please use this trinket to test edit/delete! It's functionally the same as all of my other trinkets.",
+        "rating": "4",
+        "categories": [
+            "example"
+        ],
+        "extraparam": "null"
+    },
+    {
+        "name":"Delete Me!",
+        "imagesquare": "images/editme.png",
+        "image2by1": "null",
+        "image5by4": "null",
+        "year": "2025",
+        "value": "$5.00",
+        "origin": "United States",
+        "description": "Please use this trinket to test edit/delete! It's functionally the same as all of my other trinkets.",
+        "rating": "4",
+        "categories": [
+            "example"
         ],
         "extraparam": "null"
     }
-    
 ]
